@@ -1,16 +1,39 @@
 
 
 .un{background-color: lightpink;
+  background-image: linear-gradient(lightpink, white);
+}
 
-}
 .trois{
-	background-color: lightpink;
+  background-color: lightpink;
+  background-image: linear-gradient(lightpink, white);
 }
+
 
 .carte{
 	width: 100%;
 	border: solid 5px;
 	margin-top: 10px;
-	border-radius: 15px;
+	border-image-source: linear-gradient(45deg, lightpink, white);
+  border-image-slice: 1;
 
+}
+
+
+p {
+
+  
+  text-align: center;
+  border: solid 5px;
+  border-radius: 30px;
+  font-size: 60px;
+  border-radius: 100%;
+  border-image-source: linear-gradient(45deg, lightpink, white);
+  border-image-slice: 1;
+  font: italic bold 50px/80px Georgia, serif;
+  text-align: center;
+
+
+  
+  
 }
